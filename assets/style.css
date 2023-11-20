@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.header{
+    width: 450px;
+    height: 50px;
+    margin: 5px auto;
+    margin-top: 30px;
+    background-color: rgb(47, 47, 92);
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.main{
+    width: 450px;
+    height: 450px;
+    margin: 5px auto;
+    display: flex;
+    
+}
+.main1{
+    width: 200px;
+    height: 450px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 127, 251);
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.sidebar{
+    width: 200px;
+    height: 245px;
+    background-color: rgb(142, 255, 127);
+    margin-top: 5px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.main2{
+    width: 245px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    width: 245px;
+    height: 295px;
+    background-color: darksalmon;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.extra-content{
+    width: 245px;
+    height: 150px;
+    background-color: darkmagenta;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.image{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+}
+.related-images{
+    width: 295px;
+    height: 100px;
+    background-color: darkorange;
+    margin-right: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.related-posts{
+    width: 150px;
+    height: 100px;
+    background-color: darkslategrey;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.footer{
+    width: 450px;
+    height: 50px;
+    margin: 5px auto;
+    background-color: blue;
+    padding-top: 10px;
+    font-size: 20px;
+}
